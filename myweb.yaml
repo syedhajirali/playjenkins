@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: 10.128.0.12:5000/syedhajirali/myweb:1
+      - image: 10.128.0.12:5000/syedhajirali/myweb:${BUILD_NUMBER}
         imagePullPolicy: Always
         name: myweb
 
